@@ -21,6 +21,7 @@ with tf.Session() as sess:
     print("[y, z] =", sess.run([y, z])) # Optimized, combined evaluation
     tf.summary.FileWriter("/tmp/tf/graph", sess.graph) # Export graph information
 
+    
 # Executing the above code multiple times in a notebook will add distinct
 # nodes to the graph. Thus we reset the graph post-execution.
 tf.reset_default_graph()
