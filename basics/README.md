@@ -40,4 +40,4 @@ Nodes are evaluated via `sess.run(y)` or, equivalently, `y.run()`. Each evaluati
 
 #### Visualizing a graph
 
-Graph information is exported for visualization using `tf.summary.FileWriter("/path/to/graph", sess.graph)`. Afterwards a tensorboard session can be invoked from a shell using `tensorboard --logdir="/path/to/graph"`.
+Graph information is exported for visualization using `tf.summary.FileWriter("/path/to/graph", sess.graph)`. Afterwards a tensorboard session can be invoked from a shell using `tensorboard --logdir="/path/to/graph"` and opening the displayed URL in a browser. 
