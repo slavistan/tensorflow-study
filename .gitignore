@@ -1,1 +1,4 @@
 .ipynb_checkpoints
+.jupyter_symlinks
+builder_model
+simple_save_model
